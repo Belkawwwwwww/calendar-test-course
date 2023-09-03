@@ -2,9 +2,6 @@ import React, {FC} from 'react';
 import {Card, Layout, Row} from "antd";
 import LoginForm from "../components/LoginForm";
 
-//в корень помещаем Layout поскольку эо будет страница
-
-
 const Login: FC = () => {
     return (
         <Layout>
