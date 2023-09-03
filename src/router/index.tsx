@@ -1,5 +1,3 @@
-//описываем все маршруты, все страницы, кот будут в приложении
-
 import React from "react";
 import Login from "../pages/Login";
 import Event from "../pages/Event";
