@@ -8,9 +8,6 @@ import {useActions} from "../hooks/useActions";
 import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
 
 
-
-//добавляем кмопонент row - просто флекс контейнер с направлением в строку
-//вешаем слушатель события на item menu и указываем маршрут из перечисления
 const Navbar: FC = () => {
     const router = useNavigate()
     const {isAuth, user} = useTypedSelector(state => state.auth)
