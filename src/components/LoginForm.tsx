@@ -7,18 +7,6 @@ import {useTypedSelector} from "../hooks/useTypedSelector";
 import {AppDispatch} from "../store";
 import {useActions} from "../hooks/useActions";
 
-
-//из ant designer копируем форму
-//есть массив rules с некоторыми настройками
-//этот пропс предназначен для валидации
-//мы можем передавать туда несколько объектов по которым будем валидировать тот или иной инпут
-//в данном случае required показывает что наличие какого-то текста внутри этого инпута обязательно
-//добавляем слушатель события onFinish, submit - функция, которая на этот слушатель будет отрабатывать
-//создаем ее выше в кмопоненте
-
-//сделаем вывод ошибки в форму и обработаем индикацию загрузки
-//используем useTypedSelector достаем редюсер auth, поле error и isLoading
-
 const LoginForm: FC = () => {
 
     const {login} = useActions();
